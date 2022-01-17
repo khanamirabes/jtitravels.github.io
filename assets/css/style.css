@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(255,255,255, 0.40);
+  background: white;
   transition: all 0.5s;
   z-index: 997;
   position: relative;
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #header.fixed-top, #header.header-inner-pages {
-  background: rgba(21, 5, 23, 0.8);
+  background: white;
 }
 #header.fixed-top {
   position: fixed;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
 }
 
 .scrolled-offset {
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   white-space: nowrap;
   transition: 0.3s;
-  color: white;
+  color: black;
   position: relative;
 }
 .navbar a i, .navbar a:focus i {
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: black;
 }
 .navbar .dropdown ul {
   display: block;
